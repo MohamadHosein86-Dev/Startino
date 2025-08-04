@@ -23,8 +23,8 @@ export default async function Home() {
       <Numbercontent data={data} />
       <FindeCompony />
       <CategoriesCompony />
-      {/* <Componies /> */}
-      <Jobopportunities />
+      <Componies />
+      {/* <Jobopportunities /> */}
     </main>
   );
 }
