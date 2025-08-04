@@ -3,7 +3,6 @@ import Link from "next/link";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { CiLogin, CiSearch } from "react-icons/ci";
 import { FaBars } from "react-icons/fa";
-
 export default function MobileNav() {
   return (
     <div className="block md:hidden ">
