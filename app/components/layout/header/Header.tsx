@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className=" container ">
       <MobileNav />
-      <div className=" flex-wrap flex-col md:flex-row flex items-center justify-between ">
+      <div className="  flex-col lg:flex-row flex items-center justify-between ">
         <div className=" hidden md:flex items-center gap-4 ">
           <Link href={"/"}>
             <Image width={130} height={10} src="/header/logo.webp" alt="" />
@@ -30,7 +30,7 @@ export default function Header() {
             </button>
           </form>
         </div>
-        <div className=" hidden md:flex gap-4 ">
+        <div className=" hidden  lg:flex gap-4 ">
           <LoginBtn titel="رایگان شروع کن!" />
           <LoginBtn titel="ورود/ثبت نام" login={true} />
         </div>
